@@ -15,6 +15,7 @@
 		33BDC44E1D6BE54800032CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BDC44C1D6BE54800032CD3 /* LaunchScreen.storyboard */; };
 		33BDC4591D6BE54800032CD3 /* _1blockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BDC4581D6BE54800032CD3 /* _1blockTests.m */; };
 		33BDC4641D6BE54800032CD3 /* _1blockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BDC4631D6BE54800032CD3 /* _1blockUITests.m */; };
+		33BDC4731D6C1FD100032CD3 /* Blockbutton.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BDC4721D6C1FD100032CD3 /* Blockbutton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		33BDC45F1D6BE54800032CD3 /* 01blockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 01blockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BDC4631D6BE54800032CD3 /* _1blockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1blockUITests.m; sourceTree = "<group>"; };
 		33BDC4651D6BE54800032CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BDC4711D6C1FD100032CD3 /* Blockbutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blockbutton.h; sourceTree = "<group>"; };
+		33BDC4721D6C1FD100032CD3 /* Blockbutton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blockbutton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				33BDC4421D6BE54800032CD3 /* AppDelegate.m */,
 				33BDC4441D6BE54800032CD3 /* ViewController.h */,
 				33BDC4451D6BE54800032CD3 /* ViewController.m */,
+				33BDC4711D6C1FD100032CD3 /* Blockbutton.h */,
+				33BDC4721D6C1FD100032CD3 /* Blockbutton.m */,
 				33BDC4471D6BE54800032CD3 /* Main.storyboard */,
 				33BDC44A1D6BE54800032CD3 /* Assets.xcassets */,
 				33BDC44C1D6BE54800032CD3 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				33BDC4461D6BE54800032CD3 /* ViewController.m in Sources */,
 				33BDC4431D6BE54800032CD3 /* AppDelegate.m in Sources */,
 				33BDC4401D6BE54800032CD3 /* main.m in Sources */,
+				33BDC4731D6C1FD100032CD3 /* Blockbutton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
