@@ -54,6 +54,11 @@
         
     };
     
+    int b = 1;
+    void(^bblock)() = ^{
+        
+    };
+    
 }
 //用C里的函数的方式定义
 void sum_block (void (^block)(int a,int b)){
